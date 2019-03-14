@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        div.jumbotron {
+            background: url(lenovo/bg.png) no-repeat;
+            background-size: cover;
+            /*cover 图像完全覆盖背景区域 */
+            height: 443px;
+            width: 1080px;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        div.jumbotron h1 {
+            display: none;
+        }
+
+        div.jumbotron .banner {
+            position: absolute;
+            bottom: 0;
+            left: 20px;
+        }
+
+        div.jumbotron .btn {
+            position: absolute;
+            right: 15px;
+            bottom: 0;
+        }
+        .btn-{
+            position: absolute;
+            bottom:0px;
+            right: 50px;
+        }
+        .row{
+            margin-left:10px;        
+        }
+        .col-lg-4{
+            height: 210px;
+        }
+
+        /* 块：div 行内块：a标签 行内：span标签
+        PS进行图形切割前，使用马克鳗进行了尺寸的自动标注*/
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>联系控股</h1>
+            <p class="banner"><img src="lenovo/bg2.png" alt=""></p>
+            <p class="btn"><a href="" class="btn btn-primary">更多&raquo;</a></p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <h2>公司专题</h2>
+                <p>2013年12月2日，联想之星创业大讲堂在常州举行，柳传志就“创业一把手的成长”、
+                    “创业团队的建设”与创业者进行分享。</p>
+                <p class="btn-"><a href="" class="btn btn-primary">更多&raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+                <!--col栅格系统  md-中屏-4/12-->
+                <h2>特别关注</h2>
+                <p>从靠“卖电脑”起家，到旗下集IT、房地产、消费与现代服务、化工新材料、
+                    现代农业五大核心资产运营于一体。</p>
+                <p class="btn-"><a href="" class="btn btn-primary">更多&raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+                <h2>我们的历史</h2>
+                <p><img src="lenovo/bg1.png" alt=""></p>
+                <p class="btn-"><a href="" class="btn btn-primary">更多&raquo;</a></p>
+            </div>
+
+        </div>
+        <hr>
+        <footer>
+            <p>&copy;Company 2014</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
